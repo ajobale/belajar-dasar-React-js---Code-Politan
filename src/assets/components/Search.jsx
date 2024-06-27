@@ -13,6 +13,16 @@ function Search(props) {
     }
   };
 
+  //componentDidMount
+  //jika komponen di mulai, dia akan merender komenpenin ini dulu
+  //componenentDidUpdate
+  //jika ada kompenen yang berubah, kita akan ngapain
+  //componentWillUnmount
+  //ketika kompenen di hancurkan
+  //kalau di react hook, kita dapat mencapai 3 fungsi dengan 1 hook,-. useeffect
+
+  //array kosong artrinya useeffect akan memantaui perubaha, jika tak ada yan dipantau berarti useefect tidak jalan
+
   return (
     <>
       <div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import postsData from "../posts.json";
 import Article from "../components/Article";
 import Search from "../components/Search";
@@ -8,11 +8,19 @@ function Homepage() {
   const [totalPosts, setTotalPosts] = useState(0);
 
   const onSearchChange = (value) => {
-    console.log(value);
+    // console.log(value);
     const filteredPost = postsData.filter((item) => item.title.includes(value));
     setPosts(filteredPost);
     setTotalPosts(filteredPost.length);
   };
+
+  useEffect(() => {
+    console.log("render");
+
+    // setInterval(() => {
+
+    // }, interval);
+  }, [posts]);
 
   return (
     <>
