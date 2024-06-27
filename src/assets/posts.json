@@ -1,0 +1,20 @@
+[
+  {
+    "title": "tutorial react js lengkap",
+    "tags": ["react", "frontend"],
+    "date": "2023-01-10",
+    "isNew": true
+  },
+  {
+    "title": "meningkatkan performa di react js",
+    "tags": ["react", "frontend"],
+    "date": "2023-01-10",
+    "isNew": false
+  },
+  {
+    "title": "cara menggunakan chakra-ui direact js",
+    "tags": ["react", "css"],
+    "date": "2023-01-13",
+    "isNew": false
+  }
+]
